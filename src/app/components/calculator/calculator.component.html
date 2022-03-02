@@ -1,0 +1,62 @@
+
+<div class="full">
+<div class="header">
+  <h1 class="title">CASIO</h1>
+  <div class="energie">
+    <div class="border-left"></div>
+
+  </div>
+</div>
+<div class="calculator">
+  <input type="text" id="display" name="screen" [value]="screen" >
+
+</div>
+<div class="container-clear">
+  <input type="button" class="clear" (click)="clear()" value="C">
+  <input type="button" class="clear" (click)="clear()" value="AC"></div>
+
+<div class="container">
+  <b>
+
+    <h1>
+      <input type="button" id="btn1" (click)="entervalue('1')" value="1">
+      <input type="button" id="btn2" (click)="entervalue('2')" value="2">
+      <input type="button" id="btn3" (click)="entervalue('3')" value="3">
+      <input type="button" id="btnSoma" (click)="condition('+')"  value="+">
+
+
+
+    </h1>
+    <h1>
+      <input type="button" id="btn4" (click)="entervalue('4')" value="4">
+      <input type="button" id="btn5" (click)="entervalue('5')" value="5">
+      <input type="button" id="btn6" (click)="entervalue('6')" value="6">
+      <input type="button" id="btnSubtracao" (click)="condition('-')"  value="-">
+
+
+
+    </h1>
+    <h1>
+      <input type="button" id="btn7" (click)="entervalue('7')" value="7">
+      <input type="button" id="btn8" (click)="entervalue('8')" value="8">
+      <input type="button" id="btn9" (click)="entervalue('9')" value="9">
+      <input type="button" id="btnMIltiplicacao" (click)="condition('×')" value="×">
+
+
+
+    </h1>
+    <h1>
+      <input type="button" id="btn0" (click)="entervalue('0')" value="0">
+
+      <input type="button" id="btn00" (click)="entervalue('00')" value="00">
+
+      <input type="button" id="btnCalcular" (click)="result()" value="=">
+      <input type="button" id="btnDivisao"  (click)="condition('÷')" value="÷">
+
+
+
+
+    </h1>
+  </b>
+</div>
+</div>

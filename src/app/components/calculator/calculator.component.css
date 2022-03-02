@@ -1,0 +1,73 @@
+.container input {
+  background-image: url("https://img.freepik.com/free-vector/galaxy-fantasy-background-with-pastel-color_38409-1774.jpg?size=626&ext=jpg");
+  color: rgba(29, 28, 28, 0.897);
+  height: 50px;
+  width: 100px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px 4px #888888;
+  margin: 2px;
+  font-size: xx-large;
+}
+.calculator input {
+  width: 410px;
+  height: 55px;
+  border-radius: 8px;
+  border: 2px solid rgba(29, 28, 28, 0.897);
+  background-color: lightcyan;
+  font-size: xx-large;
+}
+.full {
+  border: 3px solid rgba(17, 17, 17, 0.829);
+
+  transform: translate(90%, 20%);
+  margin: 2px;
+  padding: 12px;
+  width: 417px;
+  border-radius: 20px;
+  background-image: url("https://img.freepik.com/free-vector/galaxy-fantasy-background-with-pastel-color_38409-1774.jpg?size=626&ext=jpg");
+}
+.header {
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+}
+.title {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-left: 20px;
+}
+.energie {
+  margin-top: 10px;
+  margin-right: 20px;
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: rgba(44, 12, 12, 0.733);
+  border: 2px solid rgba(29, 28, 28, 0.897);
+}
+.container-clear {
+  display: flex;
+  justify-content: end;
+  margin-top: 10px;
+}
+.clear {
+  background-color: rgb(184, 56, 77);
+  color: rgba(29, 28, 28, 0.897);
+
+  height: 30px;
+  width: 50px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px 4px #888888;
+  margin: 2px;
+  font-size: 20px;
+}
+.border-left {
+  margin: 0 50px;
+  width: 50px;
+  height: 40px;
+
+  border-left: 1px solid rgba(29, 8, 8, 0.589);
+  border-right: 1px solid rgba(29, 8, 8, 0.589);
+  background-color: transparent;
+}
